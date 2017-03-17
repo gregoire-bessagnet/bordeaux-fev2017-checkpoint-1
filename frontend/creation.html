@@ -56,7 +56,6 @@
 
         <div class="row">
             <div class="col-md-12">
-                <div class="well well-sm">
                     <form class="form-horizontal" method="post">
                         <fieldset>
                             <legend class="text-center header">
@@ -64,38 +63,38 @@
                             </legend>
 
                             <div class="form-group">
-                                <span class="col-md-4"><i class="fa fa-user bigicon">Auteur de la citation</i></span>
+                                <span class="col-md-4"><i class="fa fa-user bigicon fa-lg"></i><p class="icons">Auteur de la citation</p></span>
                                 <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="Auteur de la citation" class="form-control">
+                                    <input id="name" name="name" type="text" placeholder="Auteur de la citation" class="form-control">
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <span class="col-md-4"><i class="fa fa-pencil-square-o bigicon"> Citation </i></span>
+                                <span class="col-md-4"><i class="fa fa-pencil-square-o bigicon fa-lg"></i><p class="icons">Citation</p></span>
                                 <div class="col-md-8">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Entrez votre citation" rows="7"></textarea>
+                                    <textarea class="form-control" id="quote" placeholder="Entrez votre citation" rows="7"></textarea>
                                 </div>
                             </div>
 
 
                             <div class="form-group">
-                                <span class="col-md-4"><i class="fa fa-user bigicon">Episode dont est extrait la citation</i></span>
+                                <span class="col-md-4"><i class="fa fa-user bigicon fa-lg"></i><p class="icons">Episode dont est extrait la citation</p></span>
                                 <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="Episode duquel la citation est extraite" class="form-control">
+                                    <input id="episode" name="name" type="text" placeholder="Episode duquel la citation est extraite" class="form-control">
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <span class="col-md-4"><i class="fa fa-user bigicon">Saison dont est extraite la citation</i></span>
+                                <span class="col-md-4"><i class="fa fa-user bigicon fa-lg"></i><p class="icons">Saison dont est extraite la citation</p></span>
                                 <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="Saison depuis laquelle la citation est extraite" class="form-control">
+                                    <input id="season" name="name" type="text" placeholder="Saison depuis laquelle la citation est extraite" class="form-control">
                                 </div>
                             </div>
 
 
 
                             <div id="datetimepicker" class="input-append date form-group">
-                                <input type="text"></input>
+                                <input type="text" id="date"></input>
                                 <span class="add-on">
         <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
       </span>
@@ -122,11 +121,11 @@
 
 
                             <label class="control-label form-group">Uploadez votre screenshot de ce moment</label>
-                            <input id="input-1" type="file" class="file">
+                            <input id="input-1" type="file" class="file" id="imgquote">
 
                             <div class="form-group">
                                 <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-danger btn-lg">Soumettre votre citation</button>
+                                    <button class="btn btn-danger btn-lg">Soumettre votre citation</button>
                                 </div>
                             </div>
 

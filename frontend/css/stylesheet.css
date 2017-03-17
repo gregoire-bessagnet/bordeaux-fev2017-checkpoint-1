@@ -24,6 +24,16 @@
 h1, h2 {
   font-family: 'Folkard';
 }
+
+p {
+  font-size:1.1em;
+  font-family: sans-serif;
+}
+
+.icons {
+  display: inline;
+  padding-left:10px;
+}
 /************************************************\
 ==================================================
 2. Navbar
@@ -31,13 +41,19 @@ h1, h2 {
 \************************************************/
 
 
-
 .navbar-header {
   height: 80px;
+  background-color: black;}
+
+.navbar-inverse {
+  background-color: black;
 }
+
 .nav-button {
   margin-top:1.8em;
 }
+
+
 
 /************************************************\
 ==================================================
@@ -121,14 +137,17 @@ blockquote {
 4. Footer
 ==================================================
 \************************************************/
+ul, li {
+  padding: 0px;
+}
 
 ul {
 list-style-type: none;
 }
 
 li > a {
-  color: darkorange;
-  margin:20px; 
+  color: darkorange; 
+  margin:20px;
 }
 
 .socialmedia :hover {
