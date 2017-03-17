@@ -27,6 +27,16 @@
 ==================================================
 \************************************************/
 
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+  background-image: url("../img/logo.jpg")
+}
+
 
 /************************************************\
 ==================================================
@@ -38,7 +48,7 @@
 }
 
 .kaamelott-banner.jumbotron {
-  background-image: url('/img/kaamelott-banner.jpg');
+  background-image: url('../img/kaamelott-banner.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,3 +120,13 @@ blockquote {
 4. Footer
 ==================================================
 \************************************************/
+
+li > a {
+  color: darkorange;
+  margin:20px; 
+}
+
+.socialmedia :hover {
+  color:cornflowerblue;
+  text-decoration: none; 
+}

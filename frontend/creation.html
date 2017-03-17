@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Cestpasfaux.com</title>
+
+  <script type="text/javascript" src="vendor/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<nav>
+
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="btn btn-danger pull-right">Créer une citation</button>
+      </div>
+      </div>
+    </div>
+  </nav>
+</div>
+  </nav>
+
+  <div class="container">
+    
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Créer une citation</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon">Auteur de la citation</i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Auteur de la citation" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"> Citation </i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Entrez votre citation" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        
+                         <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon">Episode dont est extrait la citation</i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Episode duquel la citation est extraite" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon">Saison dont est extraite la citation</i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Saison depuis laquelle la citation est extraite" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
+
+                            <label class="control-label">Uploadez votre screenshot de ce moment</label>
+                            <input id="input-1" type="file" class="file">
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-danger btn-lg">Soumettre votre citation</button>
+                            </div>
+                        </div>
+
+                    
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <footer>
+      <div class="container text-center">
+        <ul>
+          <li class ="socialmedia">
+            <a href="#" class="fa fa-4x fa-twitter"></a>
+            <a href="#" class="fa fa-4x fa-facebook"></a>
+            <a href="#" class="fa fa-4x fa-github"></a>
+          </li>
+        </ul>
+        </div>
+  </footer>
+
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery-3.1.1.min.js"></script>
+
+</body>
+</html>
