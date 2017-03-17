@@ -14,29 +14,30 @@
 \************************************************/
 @font-face {
   font-family: 'Folkard';
-  src: url('/fonts/folkard_.ttf');
+  src: url('../fonts/folkard_.ttf');
 }
 
 .kaamelott-font {
   font-family: 'Folkard';
 }
 
+h1, h2 {
+  font-family: 'Folkard';
+}
 /************************************************\
 ==================================================
 2. Navbar
 ==================================================
 \************************************************/
 
-.navbar-brand {
-  padding: 0px;
-}
-.navbar-brand>img {
-  height: 100%;
-  padding: 15px;
-  width: auto;
-  background-image: url("../img/logo.jpg")
-}
 
+
+.navbar-header {
+  height: 80px;
+}
+.nav-button {
+  margin-top:1.8em;
+}
 
 /************************************************\
 ==================================================
@@ -120,6 +121,10 @@ blockquote {
 4. Footer
 ==================================================
 \************************************************/
+
+ul {
+list-style-type: none;
+}
 
 li > a {
   color: darkorange;
